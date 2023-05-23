@@ -1,0 +1,14 @@
+<div class='container pt-4 pb-4'>
+  <div class='row container-fluid'>
+    {{> beerpartial this.randomBeer}}
+        <div class='col-6 container-fluid'>
+          <h6>Food pairing:</h6>
+          {{#each foodPairing}}
+          <li>{{this}}</li>
+          {{/each}}
+          <h6>Brewer tips:</h6>
+          <p>{{randomBeer.brewers_tips}}</p>
+        </div>
+      </div>
+  </div>
+</div>

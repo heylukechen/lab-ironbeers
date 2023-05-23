@@ -1,0 +1,7 @@
+{{> beerpartial this.singleBeer}}
+  <div class="container col-6">
+    <h5 class="card-subtitle mb-2">Food pairing</h5>
+    {{#each singleBeer.food_pairing}}
+    <li class='card-text'>{{this}}</li>
+    {{/each}}
+    </div>

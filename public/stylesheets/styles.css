@@ -5,3 +5,12 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+
+.img-new {
+    height: 200px;
+    width: auto;
+    object-fit:contain;
+  }
+
+  
