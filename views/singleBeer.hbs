@@ -1,7 +1,13 @@
-{{> beerpartial this.singleBeer}}
-  <div class="container col-6">
+<div class='container pt-4 pb-4'>
+  <div class='row'>
+  {{> beerpartial this.singleBeer}}
+  <div class="container col-6 mt-4 mb-4 pt-4 pb-4">
     <h5 class="card-subtitle mb-2">Food pairing</h5>
     {{#each singleBeer.food_pairing}}
     <li class='card-text'>{{this}}</li>
     {{/each}}
+        <h5 class="card-subtitle mb-2">Brewing tips</h5>
+        <p>{{singleBeer.brewers_tips}}</p>
     </div>
+</div>
+</div>
